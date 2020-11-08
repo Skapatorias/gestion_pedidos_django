@@ -6,9 +6,11 @@
       {% for servicio in servicios %}
 
    <div><p>
-      <h2>{{ servicio.titulo }}</h2>
-      <p>{{servicio.contenido}}</p>
+      <h2 style="color: white">{{ servicio.titulo }}</h2>
 
+      <p  style="color: white">{{servicio.contenido}}</p>
+
+      <p><img width="300px" src= "{{servicio.imagen.url}}" > </p>
    </p></div>
 
       {% endfor %}
