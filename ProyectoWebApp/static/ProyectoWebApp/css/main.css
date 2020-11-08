@@ -54,7 +54,7 @@ p {
 
 .section-heading .section-heading-upper {
   display: block;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 800;
   padding-bottom:.5rem;
 
@@ -80,7 +80,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(24, 64, 8);
+  background-color: rgb(173, 42, 42);
   font-family: 'Raleway';
 }
 
@@ -133,8 +133,8 @@ p {
   .intro .intro-text {
     left: 600;
     width: 60%;
-    margin-top: 3rem;
-    background-color: rgba(24, 64, 8);
+  
+    background-color: rgb(173, 42, 42);
     color: cornsilk;
     position: absolute;
   }
@@ -162,7 +162,7 @@ p {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(24, 64, 8);
+  background-color: rgb(173, 42, 42);
   color: cornsilk;
 }
 
@@ -229,7 +229,7 @@ p {
 }
 
 .footer {
-   background-color: rgba(24, 64, 8, 0.8);
+  background-color: rgb(173, 42, 42);
 }
 
 
