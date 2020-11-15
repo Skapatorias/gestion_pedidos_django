@@ -1,0 +1,9 @@
+{% extends "ProyectoWebApp/base.html" %}
+
+ {% load static %}
+
+    {% block content %}
+   <div><p style="color:white">Nombre: {{ miFormulario.nombre }}</p></div>
+   <div><p style="color:white">Email: {{ miFormulario.email }}</p></div>
+   <div><p style="color:white">Contenido: {{ miFormulario.contenido }}</p></div>
+    {% endblock %}
